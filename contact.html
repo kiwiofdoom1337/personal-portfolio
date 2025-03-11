@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="me">
+        <meta name="description" content="">
+        <meta name="keywords" content="HTML, Webpage, Frontend Developer">
+        <meta property="og:title" content="Contact">
+        <meta property="og:description" content="Contact">
+        <meta property="og:locale" content="en_GB">
+        <link rel="icon" href="/favicon.png" type="img/x-icon">
+        <link rel="stylesheet" href="/styles.css" type="text/css">
+        <title>Contact</title>
+    </head>
+    <body>
+        <header class="header">
+            <section class="header__intro">
+                <section class="header__name">
+                    <img src="/favicon.png" alt="icon with letter W" width="32" height="32">
+                    <p>&nbsp;my name</p>
+                </section>
+                <nav>
+                    <p><a href="/">Home</a> /</p>
+                    <p><a href="/projects.html">Projects</a> /</p>
+                    <p><a href="/articles.html">Articles</a> /</p>
+                    <p><a href="/contact.html">Contact</a></p>
+                </nav>
+            </section>
+            <h1 class="header__h1">Frontend Developer</h1>
+        </header>
+        <main>
+            <div class="container">
+                <h2>Contact Me!</h2>
+                <form action="https://httpbin.org/post" method="post">
+                    <fieldset>
+                        <legend class="offscreen">Contaсt Form</legend>
+                        <p class="fieldset__first-name">
+                            <label for="firstName">Name:</label>
+                            <input type="text" name="firstName" id="firstName" placeholder="Your name" required>
+                        </p>
+                        <p class="fieldset__last-name">
+                            <label for="lastName">Surname:</label>
+                            <input type="text" name="lastName" id="lastName" placeholder="Your surname" required>
+                        </p>
+                        <p class="fieldset__password">
+                            <label for="password">Password:</label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                        </p>
+                    </fieldset>
+                    <div class="center">
+                        <button type="submit">Submit</button>
+                        &nbsp;
+                        <button type="reset">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; all rights reserved 2025</p>
+        </footer>
+    </body>
+</html>
